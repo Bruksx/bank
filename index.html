@@ -4,9 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home</title>
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    
+
+    <form method="post">
+        <img src="img/logo/Annotation 2022-06-26 144531.jpg" alt="">
+        <h1>Create Your Account</h1>
+        <input type="text" placeholder="Name" name="name">
+        <input type="email" placeholder="Email Address" name="email">
+        <input type="text" placeholder="Username" name="username">
+        <div class="inner-form">
+            <select value="Country-code" name="country-code">
+                <option disabled selected>Country-code</option>
+            </select>
+            <input type="number" placeholder="Phone Number" name="number" class="half">
+        </div>
+        <input type="password" placeholder="Password" name="password">
+        <input type="password"  placeholder="Confirm Password" name="confirm-password">
+        <button type="Submit">Submit</button>
+    </form>
+
+<script src="js/register.js"></script>
 </body>
 </html>

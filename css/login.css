@@ -1,0 +1,57 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+    background-color: rgb(0, 153, 255);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 420px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 6px;
+    height: 450px;
+    flex-wrap: wrap;
+}
+
+form h2{
+    font-weight: 400;
+}
+
+form img{
+    width: 80px;
+}
+
+form .fields{
+    width: 65%;
+    height: 45px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(191, 191, 191);
+}
+
+.check-box:hover{
+    background-color: rgb(191, 191, 191);
+}
+
+button{
+    width: 65%;
+    height: 40px ;
+    margin: 10px 0px;
+    border: 0px;
+    background-color: rgb(0, 153, 255);
+    font-size: larger;
+    color: white;
+    border-radius: 3px;
+}
+
+a{
+    text-decoration: none;
+    margin: 10px 0px;
+}
